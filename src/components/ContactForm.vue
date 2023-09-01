@@ -91,7 +91,7 @@ export default {
                         <!-- EMAIL LABEL -->
                         <label class="control-label">Email</label>
                         <!-- EMAIL INPUT -->
-                        <input type="mail" name="email" id="email" placeholder="Inserisci la tua email" v-model="email" class="form-control" :class="errors.email ? 'is-invalid' : ''" required>
+                        <input type="email" name="email" id="email" placeholder="Inserisci la tua email" v-model="email" class="form-control" :class="errors.email ? 'is-invalid' : ''" required>
                         <!-- EMAIL ERRORS -->
                         <span v-for="(error, index) in errors.email" :key="index" class="text-danger">{{ error }}</span>
                     </div>
