@@ -1,11 +1,7 @@
 <!-- JAVASCRIPT & VUE.JS -->
 <script>
 export default {
-    data() {
-        return {
 
-        }
-    },
 }
 </script>
 
@@ -14,7 +10,7 @@ export default {
     <div class="container mb-5">
         <div class="row">
             <div class="col-12 text-center my-5">
-                <h1>Homepage</h1>
+                <h1>Contatti</h1>
             </div>
         </div>
     </div>

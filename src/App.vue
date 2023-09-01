@@ -1,7 +1,5 @@
 <!-- JAVASCRIPT & VUE.JS -->
 <script>
-import { store } from '../store';
-
 import AppHeader from './components/AppHeader.vue';
 
 export default {
@@ -10,7 +8,7 @@ export default {
     },
     data() {
         return {
-            store,
+
         }
     },
 }
