@@ -68,7 +68,7 @@ export default {
 <!-- TEMPLATE HTML -->
 <template lang="">
     <!-- CONTACT FORM CARD -->
-    <div class="col-12 card my-5">
+    <div class="col-12 card border-black my-5">
         <div class="row p-5">
             <!-- CONTACT FORM TITLE -->
             <div class="col-12">
