@@ -63,7 +63,7 @@ export default {
             <div class="col-12">
                 <div class="content text-center text-lg-start my-5">
                     <h2>Perché BoolPetCare?</h2>
-                    <p>BoolPetCare offre soluzioni e funzionalità per cliniche di ogni dimensione e specialità. Dai piccoli studi, agli ambulatori e alle università, BoolPetCare è utilizzato da professionisti veterinari in tutto il mondo.</p>
+                    <p class="my-3">BoolPetCare offre soluzioni e funzionalità per cliniche di ogni dimensione e specialità. Dai piccoli studi, agli ambulatori e alle università, BoolPetCare è utilizzato da professionisti veterinari in tutto il mondo.</p>
                     <p><strong>Investi più tempo nei tuoi pazienti e smetti di sprecarlo nella gestione del tuo centro veterinario. Aumenta l'efficienza della tua clinica grazie a integrazioni e funzionalità che permettono di relazionarti meglio con i tuoi clienti, di automatizzare le attività e la gestione degli orari e risparmiare energie e risorse.</strong></p>
 
                 </div>
