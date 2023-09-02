@@ -7,9 +7,12 @@
     box-sizing: border-box;
 }
 
-// main home
+body,
+#app {
+    height: 100vh;
+}
 
-
+// main home-page
 
 .jumbotron {
     background-color: #23B5BF;
@@ -19,7 +22,7 @@
     }
 }
 
-.button-demo{
+.button-demo {
     background-color: #23B5BF;
 }
 
@@ -27,5 +30,4 @@
     width: 400px;
 }
 
-
-// end main home
+// end main home-page
