@@ -29,8 +29,4 @@ export default {
 <style lang="scss">
 // IMPORTO GENERALS.SCSS
 @use './styles/generals.scss' as *;
-
-main {
-    height: calc(100% - 20vh);
-}
 </style>

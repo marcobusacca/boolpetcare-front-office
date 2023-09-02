@@ -47,8 +47,4 @@ export default {
 <style lang="scss">
 // IMPORTO GENERALS.SCSS
 @use '../styles/generals.scss' as *;
-
-header {
-    height: 10vh;
-}
 </style>
