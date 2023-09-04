@@ -107,7 +107,7 @@ export default {
                     <!-- FORM SUBMIT -->
                     <div class="col-12 text-center my-3">
                         <!-- SUBMIT BUTTON -->
-                        <button type="submit" class="btn btn-success" :disabled="loading">{{ loading ? 'Invio in corso' : 'Invia' }}</button>
+                        <button type="submit" class="btn btn-info btn-bool-pet-care text-white" :disabled="loading">{{ loading ? 'Invio in corso' : 'Invia' }}</button>
                     </div>
                 </form>
             </div>
