@@ -40,7 +40,7 @@ export default {
                 <div class="content text-center text-md-start my-5">
                     <h3>Un software gestionale veterinario che renderà il tuo lavoro una passeggiata.</h3>
                     <p class="my-4">L'obiettivo di BoolPetCare è quello di aiutarti nella gestione e nella produttività del tuo studio veterinario. Il nostro team di sviluppatori si è soffermato ad ascoltare le esigenze dei professionisti del settore per creare un prodotto che si adegua perfettamente alle tue necessità.</p>
-                    <button type="button" class="btn button-demo my-3 text-white">Prova demo</button>
+                    <button type="button" class="btn btn-info button-demo my-3 text-white">Prova demo</button>
                 </div>
             </div>
         </div>
@@ -69,8 +69,8 @@ export default {
                 </div>
             </div>
             <div class="col-12">
-                <div class="content text-center text-lg-start my-2">
-                    <button type="button" class="btn button-demo p-3 text-white">
+                <div class="content text-center my-2">
+                    <button type="button" class="btn btn-info button-demo p-3 text-white">
                         <h2>Scopri le Funzionalità di BoolPetCare</h2>
                     </button>
 
