@@ -68,7 +68,7 @@ export default {
 <!-- TEMPLATE HTML -->
 <template lang="">
     <!-- CONTACT FORM CARD -->
-    <div class="col-12 card border-black my-5">
+    <div class="col-12 my-5">
         <div class="row p-5">
             <!-- CONTACT FORM TITLE -->
             <div class="col-12">
@@ -82,7 +82,7 @@ export default {
                         <!-- NAME LABEL -->
                         <label class="control-label">Nome e Cognome</label>
                         <!-- NAME INPUT -->
-                        <input type="text" name="name" id="name" placeholder="Inserisci il tuo nome ed il tuo cognome" v-model="name" class="form-control" :class="errors.name ? 'is-invalid' : ''" required>
+                        <input type="text" name="name" id="name" placeholder="Inserisci nome" v-model="name" class="form-control" :class="errors.name ? 'is-invalid' : ''" required>
                         <!-- NAME ERRORS -->
                         <span v-for="(error, index) in errors.name" :key="index" class="text-danger">{{ error }}</span>
                     </div>
@@ -91,7 +91,7 @@ export default {
                         <!-- EMAIL LABEL -->
                         <label class="control-label">Email</label>
                         <!-- EMAIL INPUT -->
-                        <input type="email" name="email" id="email" placeholder="Inserisci la tua email" v-model="email" class="form-control" :class="errors.email ? 'is-invalid' : ''" required>
+                        <input type="email" name="email" id="email" placeholder="Inserisci email" v-model="email" class="form-control" :class="errors.email ? 'is-invalid' : ''" required>
                         <!-- EMAIL ERRORS -->
                         <span v-for="(error, index) in errors.email" :key="index" class="text-danger">{{ error }}</span>
                     </div>

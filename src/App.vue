@@ -29,4 +29,8 @@ export default {
 <style lang="scss">
 // IMPORTO GENERALS.SCSS
 @use './styles/generals.scss' as *;
+
+main {
+    min-height: 100vh;
+}
 </style>
